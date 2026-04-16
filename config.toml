@@ -6,7 +6,7 @@
 title        = "26 Aprile"
 subtitle     = "Che Nino vi benedica"
 tagline      = "Informazioni necessarie & sufficienti"
-date         = ""          # used for display only
+date         = ""
 
 # ── Sections ──────────────────────────────────
 
@@ -33,29 +33,32 @@ label        = "La Musica"
 icon         = "🎵"
 spotify_url  = "https://open.spotify.com/playlist/4cJYZ6ksQNZFca8kZeQeCZ?si=R8tMXmLISYy6w2Us76EMqQ&pi=prLn8L6oToKT4"
 content      = """
-Playlist condivisa, arricchitela con la vostra fetta di cuore. 
+Playlist condivisa, arricchitela con la vostra fetta di cuore.
 
 Scaricare in anticipo per l'ascolto offline.
 """
 
 # ── Theme ─────────────────────────────────────
 # bg_style options: "spring" | "summer" | "autumn" | "night" | "custom"
-# If "custom", bg_color is used as the full background color.
 
 [theme]
 bg_style        = "custom"
+bg_color        = "#fce4ec"   # light pastel pink
 
-# Card accent colors — used for left border stripe, tag text, link buttons
-card_modus_color  = "#efbcd5"    # pastel petal (pink)
-card_locus_color  = "#4a8c40"    # meadow green
-card_musica_color = "#7c6c5a"    # warm pearl
+# Card border colors
+card_modus_color  = "#efbcd5"
+card_locus_color  = "#4a8c40"
+card_musica_color = "#7c6c5a"
 
-# Form card (food requests)
-card_form_color      = "#efbcd5"                 # accent: border, tag, submit button
-card_form_background = "rgba(255,255,255,0.72)"  # card background fill
+# Card tag text colors (darker, for readability)
+card_modus_tag    = "#c4709a"
+card_locus_tag    = "#3a6e32"
+card_musica_tag   = "#5a4e40"
 
-# Used only when bg_style = "custom"
-bg_color = "#C2DAFF" # icy blue
+# Form card
+card_form_color      = "#efbcd5"
+card_form_background = "rgba(255,255,255,0.92)"
+card_form_tag        = "#c4709a"
 
 # ── Admin ─────────────────────────────────────
 [admin]
