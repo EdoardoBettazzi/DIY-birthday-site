@@ -1,0 +1,56 @@
+# ─────────────────────────────────────────────
+#  EVENT CONFIGURATION — edit this file only
+# ─────────────────────────────────────────────
+
+[event]
+title        = "26 Aprile"
+subtitle     = "Comunicazione di Servizio"
+tagline      = "Informazioni necessarie & sufficienti"
+date         = "2025-04-26"          # used for display only
+
+# ── Sections ──────────────────────────────────
+
+[modus]
+enabled  = true
+label    = "Il Modus"
+icon     = "🍽️"
+content  = """
+L'organizzazione provvederà a **cullarci dal punto di vista alimentare** — fare pervenire eventuali richieste alimentari con congruo anticipo.
+
+A ciascuna partecipante spetta invece la **provvigione alcolica**, con annesso potere refrigerante. Portate quello che volete bere.
+"""
+
+[locus]
+enabled  = true
+label    = "Il Locus"
+icon     = "📍"
+maps_url = "https://maps.app.goo.gl/A2q9fZUXFHbvextu9?g_st=iw"
+content  = "Aprire il link per la posizione esatta su Google Maps."
+
+[musica]
+enabled      = true
+label        = "La Musica"
+icon         = "🎵"
+spotify_url  = "https://open.spotify.com/playlist/4cJYZ6ksQNZFca8kZeQeCZ?si=R8tMXmLISYy6w2Us76EMqQ&pi=prLn8L6oToKT4"
+content      = "La colonna sonora ufficiale della serata. Salvala su Spotify in anticipo per l'ascolto offline."
+
+# ── Theme ─────────────────────────────────────
+# bg_style options: "spring" | "summer" | "autumn" | "night" | "custom"
+# If "custom", bg_color and card_* below are used directly.
+
+[theme]
+bg_style        = "spring"       # preset name OR "custom"
+
+# Card accent colors (hex). Used for the left border stripe and tags.
+card_modus_color  = "#c9a227"    # warm yellow
+card_locus_color  = "#4a8c40"    # meadow green
+card_musica_color = "#7c6c5a"    # warm pearl
+
+# Custom bg (only used when bg_style = "custom")
+bg_color        = "#f0f4e8"
+
+# ── Admin ─────────────────────────────────────
+[admin]
+# Set a password to protect the organiser dashboard.
+# Leave empty to disable password protection.
+password = "organizzatore"
