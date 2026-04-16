@@ -4,9 +4,9 @@
 
 [event]
 title        = "26 Aprile"
-subtitle     = "Comunicazione di Servizio"
+subtitle     = "Che Nino vi benedica"
 tagline      = "Informazioni necessarie & sufficienti"
-date         = "2025-04-26"          # used for display only
+date         = ""          # used for display only
 
 # ── Sections ──────────────────────────────────
 
@@ -15,9 +15,9 @@ enabled  = true
 label    = "Il Modus"
 icon     = "🍽️"
 content  = """
-L'organizzazione provvederà a **cullarci dal punto di vista alimentare** — fare pervenire eventuali richieste alimentari con congruo anticipo.
+L'organizzazione provvederà a cullarci **dal punto di vista alimentare** — fare pure pervenire eventuali richieste alimentari nel form sottostante.
 
-A ciascuna partecipante spetta invece la **provvigione alcolica**, con annesso potere refrigerante. Portate quello che volete bere.
+Si lascia invece **ai partecipanti la provvigione alcolica e** relativo potere refrigerante (**borse frigo**).
 """
 
 [locus]
@@ -25,32 +25,38 @@ enabled  = true
 label    = "Il Locus"
 icon     = "📍"
 maps_url = "https://maps.app.goo.gl/A2q9fZUXFHbvextu9?g_st=iw"
-content  = "Aprire il link per la posizione esatta su Google Maps."
+content  = "Considerate che non c'è molta linea da quelle parti."
 
 [musica]
 enabled      = true
 label        = "La Musica"
 icon         = "🎵"
 spotify_url  = "https://open.spotify.com/playlist/4cJYZ6ksQNZFca8kZeQeCZ?si=R8tMXmLISYy6w2Us76EMqQ&pi=prLn8L6oToKT4"
-content      = "La colonna sonora ufficiale della serata. Salvala su Spotify in anticipo per l'ascolto offline."
+content      = """
+Playlist condivisa, arricchitela con la vostra fetta di cuore. 
+
+Scaricare in anticipo per l'ascolto offline.
+"""
 
 # ── Theme ─────────────────────────────────────
 # bg_style options: "spring" | "summer" | "autumn" | "night" | "custom"
-# If "custom", bg_color and card_* below are used directly.
+# If "custom", bg_color is used as the full background color.
 
 [theme]
-bg_style        = "spring"       # preset name OR "custom"
+bg_style        = "custom"
 
-# Card accent colors (hex). Used for the left border stripe and tags.
-card_modus_color  = "#c9a227"    # warm yellow
+# Card accent colors — used for left border stripe, tag text, link buttons
+card_modus_color  = "#efbcd5"    # pastel petal (pink)
 card_locus_color  = "#4a8c40"    # meadow green
 card_musica_color = "#7c6c5a"    # warm pearl
 
-# Custom bg (only used when bg_style = "custom")
-bg_color        = "#f0f4e8"
+# Form card (food requests)
+card_form_color      = "#efbcd5"                 # accent: border, tag, submit button
+card_form_background = "rgba(255,255,255,0.72)"  # card background fill
+
+# Used only when bg_style = "custom"
+bg_color = "#C2DAFF" # icy blue
 
 # ── Admin ─────────────────────────────────────
 [admin]
-# Set a password to protect the organiser dashboard.
-# Leave empty to disable password protection.
-password = "organizzatore"
+password = ""
