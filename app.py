@@ -365,7 +365,7 @@ st.markdown(f"""
     dalle da-da i su corpo che gli-gli
     leccano la schiena
     poi poi gli sputano e leccano i
-    groppone..
+    gropp..
   </div>
   <div class="ev-footer-main">— ci vediamo il 26 —</div>
 </div>
