@@ -1,0 +1,65 @@
+# ─────────────────────────────────────────────
+#  EVENT CONFIGURATION — edit this file only
+# ─────────────────────────────────────────────
+
+[event]
+title        = "26 Aprile"
+subtitle     = "Che Nino vi benedica"
+tagline      = "Informazioni necessarie & sufficienti"
+date         = ""
+
+# ── Sections ──────────────────────────────────
+
+[modus]
+enabled  = true
+label    = "Il Modus"
+icon     = "🍽️"
+content  = """
+L'organizzazione provvederà a cullarci **dal punto di vista alimentare** — fare pure pervenire eventuali richieste alimentari nel form sottostante.
+
+Si lascia invece **ai partecipanti la provvigione alcolica e** relativo potere refrigerante (**borse frigo**).
+"""
+
+[locus]
+enabled  = true
+label    = "Il Locus"
+icon     = "📍"
+maps_url = "https://maps.app.goo.gl/A2q9fZUXFHbvextu9?g_st=iw"
+content  = "Considerate che non c'è molta linea da quelle parti."
+
+[musica]
+enabled      = true
+label        = "La Musica"
+icon         = "🎵"
+spotify_url  = "https://open.spotify.com/playlist/4cJYZ6ksQNZFca8kZeQeCZ?si=R8tMXmLISYy6w2Us76EMqQ&pi=prLn8L6oToKT4"
+content      = """
+Playlist condivisa, arricchitela con la vostra fetta di cuore.
+
+Scaricare in anticipo per l'ascolto offline.
+"""
+
+# ── Theme ─────────────────────────────────────
+# bg_style options: "spring" | "summer" | "autumn" | "night" | "custom"
+
+[theme]
+bg_style        = "custom"
+bg_color        = "#fce4ec"   # light pastel pink
+
+# Card border colors
+card_modus_color  = "#efbcd5"
+card_locus_color  = "#4a8c40"
+card_musica_color = "#7c6c5a"
+
+# Card tag text colors (darker, for readability)
+card_modus_tag    = "#c4709a"
+card_locus_tag    = "#3a6e32"
+card_musica_tag   = "#5a4e40"
+
+# Form card
+card_form_color      = "#efbcd5"
+card_form_background = "rgba(255,255,255,0.92)"
+card_form_tag        = "#c4709a"
+
+# ── Admin ─────────────────────────────────────
+[admin]
+password = ""
