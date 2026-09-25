@@ -40,7 +40,7 @@ streamlit run app.py
 3. Point to your repo, branch `main`, file `app.py`
 4. Done — you get a free HTTPS URL to share
 
-> **Note on data persistence:** Streamlit Community Cloud restarts apps periodically, which wipes `data/`. For a one-day event this is fine. For permanent storage, either commit the CSVs to git, or swap the CSV writes in `app.py` for a free [Supabase](https://supabase.com) or [PlanetScale](https://planetscale.com) DB (a few lines of change).
+> **Note on data persistence:** Streamlit Community Cloud restarts apps periodically, which wipes `data/`. For a one-day event this is fine. For permanent storage, either commit the CSVs to git, or swap the CSV writes in `app.py` for a free [Supabase](https://supabase.com) or [PlanetScale](https://planetscale.com) DB.
 
 ## Admin dashboard
 
